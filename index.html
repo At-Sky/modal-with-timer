@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css"/>
+</head>
+<body>
+    
+    <div class="overlay">
+        <div class="modal">
+
+            <div class="modal__close-btn">
+                <span class="line"></span>
+                <span class="line"></span>
+            </div>
+
+            <div class="modal__container">
+                <img class="modal__face-img" src="./images/face.png"/>
+                <p class="modal__text">
+                    Здавствуйте, хотите, мы перезвоним вам за 24 секунды?
+                </p>
+
+                <for class="modal__form form">
+                    <input type="text" class="form__input" placeholder="+7 (111) 111-11-11">
+                    <button type="submit" class="form__button">Позвоните мне!</button>
+                </for>
+
+                <div class="modal__reminder">
+                    <p class="modal__privacy">
+                        Нажимая на кнопку "Позвоните мне", я даю свое 
+                        согласие на обработку персональных данных и 
+                        принимаю условия соглашения
+                    </p>
+                    <div class="modal__timer">00:30:00</div>
+                    <a href="/" class="modal__choose-time">Выбрать удобное время для звонка</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
